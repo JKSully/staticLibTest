@@ -2,7 +2,8 @@
 #include <vector>
 #include <numeric>
 
-#include "library.h"
+#include "testLibrary.h"
+
 int main() {
     std::vector<int> test(7);
     std::iota(test.begin(), test.end(), 0);
